@@ -8,6 +8,6 @@ function Excuse() {
 	var did = ate[Math.round(Math.random()*(ate.length-1))];
 	var what = myHomework[Math.round(Math.random()*(myHomework.length-1))];
 	
-	document.getElementById('excuses').innerHTML = '<div>Mon ' + who + ' ' + did + '<br> votre ' + what + '.</div>'
+	document.getElementById('excuses').innerHTML = '<div>C\'est pas ma faute. C\est votre ' + who + ' qui ' + did + '<br> mon ' + what + '.</div>'
 	
 }
